@@ -61,8 +61,14 @@ void display() {
 	cout << "Jumlah pass = " << n - 1 << endl;
 	cout << endl;
 
-int main()
-{
 
+	}
+int main(){
+	input();
+	insertionSort();
+	display();
+	system("pause");
+
+	return 0;
 }
 
